@@ -1,0 +1,22 @@
+.link {
+  @include particle--type-style('body-short-01');
+  transition: color $transition--base;
+  color: $text-02;
+
+  &:hover {
+    color: $text-01;
+  }
+}
+
+.row {
+  position: relative;
+  top: 9rem;
+}
+
+:global(.container--dark) .link {
+  color: $particle--white-0;
+
+  &:hover {
+    color: $particle--white-0;
+  }
+}

@@ -1,0 +1,5 @@
+.column {
+  @include particle--breakpoint-down('lg') {
+    margin-bottom: var(--space);
+  }
+}
